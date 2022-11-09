@@ -1,0 +1,160 @@
+body{
+    background-color: #F0E9E9;
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+}
+
+img{
+    object-fit: cover;
+}
+
+h1{
+    color: #483838;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.5rem;
+    text-align: left;
+    padding-top: 8%;
+    letter-spacing: .1rem;
+}
+
+.grey{
+    color: grey;
+}
+
+.space{
+    padding-right: 5%;
+}
+
+#title{
+    padding: 2% 15% 8%;
+}
+
+.row{
+    text-align:center;
+    padding-top: 5%;
+}
+
+.row img{
+    width: 300px;
+    height: 200px;
+    padding: 3% 0;
+}
+
+.name{
+    font-size: 21px;
+    text-align: left;
+    padding: 4%;
+    font-family: 'Playfair Display', serif;
+}
+
+.description{
+    width: 310px;
+    text-align: left;
+    padding-left: 4%;
+
+}
+
+/* Navigation Bar */
+
+.logo{
+    width: 33%;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+/* Footer */
+
+#footer{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.footer-icons{
+    padding: 10px 0;
+}
+
+.footer-link{
+    color: black;
+    margin: 20px 10px;
+}
+
+
+/***** Responsive *****/
+
+@media (max-width: 1028px){
+
+    h1{
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 8%;
+        letter-spacing: .1rem;
+    }
+
+    .grey{
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 5% 0;
+    }
+
+    .row{
+        text-align:center;
+    }
+
+    .restaurants{
+        margin: 5%;
+    }
+
+    .name{
+        font-size: 20px;
+        text-align: center;
+        padding: 4%;
+    }
+
+    .description{
+        width: 310px;
+        text-align: center;
+        font-size: 1rem;
+
+    }
+
+    /* Navigation Bar */
+
+    .logo{
+        width: 30%;
+    }
+
+    .nav-link{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .navbar-brand{
+        margin-right: 0;
+        width: 80%;
+    }
+
+
+    /* Footer */
+
+    #footer{
+        font-size: 0.7rem;
+    }
+
+
+}
