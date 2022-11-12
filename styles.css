@@ -199,6 +199,37 @@ body{
 }
 
 
+/******* CTA *******/
+
+.foodie{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("/Users/alice/Desktop/Web Development/Restaurant List/images/foodie-bg.png");
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    z-index: 10;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.05rem;
+}
+
+.top{
+    z-index: 20;
+}
+
+.cta{
+    padding: 5% 20%;
+}
+
+.cta-heading{
+    font-size: 3rem;
+}
+
+.cta-button{
+    margin: 3% 3% 3% 0;
+}
+
+
 /* Footer */
 
 #footer{
@@ -206,6 +237,7 @@ body{
     font-size: 0.9rem;
     padding: 5% 15%;
     text-align: center;
+    background-color: #C19191;
 }
 
 .footer-icons{
@@ -248,11 +280,12 @@ body{
     }
 
     .big-heading{
-        font-size: 3.5rem;
+        font-size: 3.2rem;
+        padding-right: 0;
     }
 
     .small-title{
-        font-size: 0.8rem;
+        font-size: 0.55rem;
     }
 
     .smoke{
@@ -286,12 +319,12 @@ body{
     }
 
     .card-img-top{
-        height: 250px;
+        height: 220px;
         object-fit: cover;
     }
 
     .pick{
-        font-size: 3rem;
+        font-size: 2.5rem;
         padding-bottom: 5%;
     }
 
@@ -306,7 +339,6 @@ body{
         padding: 3% 20%;
         text-align:center;
         position: absolute;
-        bottom: 0;
         z-index: 20;
     }
 
@@ -315,7 +347,7 @@ body{
     }
 
     .button{
-        font-size: 1rem;
+        font-size: 0.8rem;
         width: 80%;
         margin: 5% auto;
         padding: 2% 0;
@@ -334,16 +366,29 @@ body{
     }
 
     .price-card{
-        min-height: 200px;
-        min-width: 300px;
+        max-height: 200px;
+        max-width: 300px;
         border: 0;
         margin: 3%;
     }
 
     .price-button{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
+    .card-body{
+        padding-top: 8px;
+    }
+
+    /******* CTA *******/
+
+    .cta-heading{
+        font-size: 2rem;
+    }
+
+    .cta-button{
+        font-size: 1rem;
+    }
 
     /* Footer */
 
@@ -352,8 +397,3 @@ body{
     }
 
 }
-
-
-
-
-
