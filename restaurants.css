@@ -116,6 +116,11 @@ h1{
         text-align:center;
     }
 
+    .row img{
+        width: 250px;
+        height: 150px;
+    }
+
     .restaurants{
         margin: 5%;
     }
@@ -123,14 +128,14 @@ h1{
     .name{
         font-size: 20px;
         text-align: center;
-        padding: 4%;
+        padding: 4% 0;
     }
 
     .description{
-        width: 310px;
+        width: 250px;
         text-align: center;
         font-size: 1rem;
-
+        padding-left: 40px;
     }
 
     /* Navigation Bar */
