@@ -270,7 +270,7 @@ body{
 
     .navbar-brand{
         margin-right: 0;
-        width: 80%;
+        width: 70%;
     }
 
 
@@ -375,6 +375,7 @@ body{
 
     .price-button{
         font-size: 0.8rem;
+        padding: 4px 8px;
     }
 
     .card-body{
@@ -385,12 +386,13 @@ body{
 
     .foodie{
         background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("mobile-foodie-bg.png");
-        object-fit: cover;
+        background-size: cover;
     }
 
     .cta-heading{
         font-size: 2rem;
         padding-top: 3%;
+        font-family: 'Playfair Display', serif;
     }
 
     .cta-button{
