@@ -223,6 +223,7 @@ body{
 
 .cta-heading{
     font-size: 3rem;
+    font-family: 'Roboto Slab', serif;
 }
 
 .cta-button{
@@ -382,8 +383,13 @@ body{
 
     /******* CTA *******/
 
+    .foodie{
+        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("mobile-foodie-bg.png");
+    }
+
     .cta-heading{
         font-size: 2rem;
+        padding-top: 3%;
     }
 
     .cta-button{
