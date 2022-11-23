@@ -564,7 +564,7 @@ body{
 /******* CTA *******/
 
 .foodie{
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("/Users/alice/Desktop/Web Development/Restaurant List/images/foodie-bg.png");
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("foodie-bg.png");
     position: relative;
     height: 300px;
     width: 100%;
@@ -747,7 +747,7 @@ body{
     /******* CTA *******/
 
     .foodie{
-        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("/Users/alice/Desktop/Web Development/Restaurant List/images/mobile-foodie-bg.png");
+        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("mobile-foodie-bg.png");
         background-size: cover;
     }
 
