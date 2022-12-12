@@ -474,6 +474,7 @@ body{
 .card-title{
     font-family: 'DM Sans', sans-serif;
     font-size: 1.3rem;
+    margin: 2% auto;
 }
 
 .card-img-top{
@@ -494,7 +495,7 @@ body{
 /******* Countries *******/
 
 #countries{
-    padding: 7% 15%;
+    padding: 10% 15%;
 }
 
 .table{
@@ -531,7 +532,7 @@ body{
 /******* Prices *******/
 
 #prices{
-    padding: 7% 15%;
+    padding: 5% 7% 9%;
     text-align:center;
     background-color: #C19191;
 }
@@ -542,14 +543,20 @@ body{
 }
 
 .pricing-column{
-    padding: 2% 3%;
+    padding: 2% 0;
     text-align: center;
     font-family: 'DM Sans', sans-serif;
 }
 
+.price-card{
+  max-width: 400px;
+  max-height: 400px;
+  margin: auto 2%;
+}
+
 .description{
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
 }
@@ -567,7 +574,7 @@ body{
 .foodie{
     background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("foodie-bg.png");
     position: relative;
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-size: cover;
     object-fit: cover;
@@ -585,8 +592,13 @@ body{
 }
 
 .cta-heading{
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-family: 'Roboto Slab', serif;
+    padding-bottom: 3%;
+}
+
+.cta-text{
+  font-size: 1.5rem;
 }
 
 .cta-button{
@@ -687,6 +699,10 @@ body{
         object-fit: cover;
     }
 
+    .card-title{
+      font-size: 1rem;
+  }
+
     .pick{
         font-size: 2.5rem;
         padding-bottom: 5%;
@@ -745,17 +761,30 @@ body{
         padding-top: 8px;
     }
 
+    .description{
+      font-size: 1rem;
+    }
+
     /******* CTA *******/
 
     .foodie{
         background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("mobile-foodie-bg.png");
         background-size: cover;
+        height: 300px;
     }
 
+    .cta{
+      padding: 5% 20%;
+    }
+    
     .cta-heading{
         font-size: 2rem;
         padding-top: 3%;
         font-family: 'Playfair Display', serif;
+    }
+
+    .cta-text{
+      font-size: 1rem;
     }
 
     .cta-button{
