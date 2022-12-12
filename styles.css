@@ -452,7 +452,7 @@ body{
 
 #cuisine{
     background-color: #C19191;
-    padding: 7% 0;
+    padding: 5% 0 7%;
     text-align:center;
 }
 
@@ -461,8 +461,8 @@ body{
 }
 
 .cuisine-card {
-    min-height: 350px;
-    min-width: 350px;
+    min-height: 500px;
+    min-width: 550px;
     margin-right: 5px;
     border: 0;
 }
@@ -473,10 +473,11 @@ body{
 
 .card-title{
     font-family: 'DM Sans', sans-serif;
+    font-size: 1.3rem;
 }
 
 .card-img-top{
-    height: 300px;
+    height: 500px;
     object-fit: cover;
 }
 
