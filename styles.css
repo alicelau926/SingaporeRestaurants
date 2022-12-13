@@ -426,14 +426,14 @@ body{
 .smoke{
     position: absolute;
     right: 20%;
-    bottom: 50%;
+    bottom: 45%;
     width: 10%;
 }
 
 .bao{
     position: absolute;
     right: 16%;
-    bottom: 20%;
+    bottom: 13%;
     width: 23%;
 }
 
@@ -513,7 +513,7 @@ body{
 
 .button{
     font-family: 'DM Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     width: 60%;
     color: black;
     border: 0;
@@ -572,7 +572,7 @@ body{
 /******* CTA *******/
 
 .foodie{
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("foodie-bg.png");
+    background: linear-gradient(rgba(255,255,255,.64), rgba(255,255,255,.64)), url("foodie-bg.png");
     position: relative;
     height: 400px;
     width: 100%;
@@ -768,7 +768,7 @@ body{
     /******* CTA *******/
 
     .foodie{
-        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("mobile-foodie-bg.png");
+        background: linear-gradient(rgba(255,255,255,.64), rgba(255,255,255,.64)), url("mobile-foodie-bg.png");
         background-size: cover;
         height: 300px;
     }
